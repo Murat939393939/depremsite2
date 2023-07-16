@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: #000000;
+}
+.menu-bar{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    background: #121212
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #ffffff;
+}
+.menu-bar ul li{
+    width: 150x;
+    margin: 15px;
+    padding: 15px;
+    color: #13183E;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+   
+}
+ .menu-bar ul li:hover{
+   
+    background: orange;
+    border-radius: 20px;
+}
+/**
+* ! Navbar.STyles.are.here
+**/
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: left;
+
+    padding: 25px 10px;
+ }
+ .button{
+ 
+    background-color: #21005f;
+
+    border: none;
+
+    color: white;
+
+    padding: 15px 32px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 20px;
+
+    margin: 4px 2px;
+
+    cursor: pointer;
+    border-radius: 10px;
+}
+.menuyazi{
+    color: orange;
+}
+.button:hover{
+    background: #1100ff;
+}
+p{
+    color: white;
+    
+}
+.kutu{
+    background: #1f1f1f;
+    width: 800px;
+    padding: 30px;
+    border-radius: 50px;
+    }
+    .sms{
+        font-family: 'Brush Script MT', cursive;
+        color: white;
+    }
+    .kutu{
+        background: #1f1f1f;
+        width: 800px;
+        padding: 30px;
+        border-radius: 50px;
+        }
+        .kutu2{
+            background: #1f1f1f;
+            width: 200px;
+            padding: 50px;
+            float: left;
+            margin: 0px 14px;
+            border-radius: 20px;
+            }
+            .istatik{
+                color: #020022;
+
+            }
+            .kutu:hover{
+                background: #1100ff;
+            }
+            .kutu2:hover{
+                background: #1100ff;
+            }
+            .iletisim{
+                font-family: 'Brush Script MT', cursive;
+                color: white;
+                font-size: 30px;
+            }
